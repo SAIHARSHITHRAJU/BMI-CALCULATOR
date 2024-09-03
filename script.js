@@ -8,7 +8,7 @@ document.getElementById('btn').addEventListener('click', () => {
       || height <= 0
       || weight <= 0
     ) {
-      document.getElementById('result').innerHTML = 'Please enter valid positive numbers for height and weight.';
+      document.getElementById('result').innerHTML = 'Please enter valid a input for height and weight.';
       return;
     }
   
